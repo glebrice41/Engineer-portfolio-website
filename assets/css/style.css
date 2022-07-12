@@ -4,19 +4,24 @@
   margin: 0;
 }
 
+:root {
+  --main-color: rgb(245, 206, 206);
+  --button-main-color: rgb(224, 71, 71);
+}
+
 /* Body background color*/
 body {
   background-color: rgb(198, 248, 231);
 }
 
 header {
-  background-color: rgb(245, 206, 206);
+  background-color: var(--main-color);
   padding: 15px;
   flex-wrap: wrap;
 }
 
 nav {
-  background-color: rgb(245, 206, 206);
+  background-color: var(--main-color);
   float: right;
   padding: 33px;
   font-size: 59px;
@@ -41,9 +46,13 @@ nav ul {
 .button li {
   font-size: 25px;
   text-align: center;
-  color: rgb(224, 71, 71);
+  color: var(--button-main-color);
   font-family: Brush Script MT, Brush Script Std, cursive;
   padding: auto;
+}
+
+a:visited {
+  color: var(--button-main-color);
 }
 
 .main-foto {
@@ -94,27 +103,37 @@ nav ul {
   margin: 20px;
   flex: 0 0 300px;
   width: 15em;
+  position: relative;
 }
 
 .card header {
   text-align: center;
   border-radius: 30% 30% 0 0;
-  margin: 0;
-
+  margin: 9px;
 }
 
 .card img {
   border-radius: 0 0 30% 30%;
-  box-shadow: 0 0 10px rgba(246, 243, 35, 0.4);
+  /* box-shadow: 0 0 10px rgba(246, 243, 35, 0.4); */
   padding: 0.5em;
   margin-bottom: 1em;
-  margin: 1%;
+  margin: 0;
   width: 100%;
 }
 
+.card a.project-link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  
+}
+
+
 .footer {
   font-size: 20px;
-  background-color: rgb(150, 245, 147);
+  background-color: var(--main-color);
   margin: 0;
   text-align: center;
 }
