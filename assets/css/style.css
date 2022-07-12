@@ -1,0 +1,127 @@
+/*Asterisk means that all elements that have zero margin and zero padding should look the same in all browsers.*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* Body background color*/
+body {
+  background-color: rgb(198, 248, 231);
+}
+
+header {
+  background-color: rgb(245, 206, 206);
+  padding: 15px;
+  flex-wrap: wrap;
+}
+
+nav {
+  background-color: rgb(245, 206, 206);
+  float: right;
+  padding: 33px;
+  font-size: 59px;
+  display: flex;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+/* nav ul li {
+  display: inline;
+} */
+
+.button {
+  background-color: rgb(247, 239, 239);
+  border-radius: 30%;
+  border: auto;
+  padding: 14px 40px;
+}
+
+.button li {
+  font-size: 25px;
+  text-align: center;
+  color: rgb(224, 71, 71);
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  padding: auto;
+}
+
+.main-foto {
+  background-color: rgb(224, 71, 71);
+  border-radius: 30%;
+  box-shadow: 0 0 10px rgba(246, 243, 35, 0.4);
+  padding: 0.5em;
+  margin-bottom: 1em;
+  margin: 1%;
+  width: 15em;
+}
+
+#name {
+  color: rgb(224, 71, 71);
+  font-family: Brush Script MT, Brush Script Std, cursive;
+}
+
+.aboutme {
+  background-color: rgb(247, 239, 239);
+  border-radius: 20%;
+  box-shadow: 0 0 10px rgba(246, 243, 35, 0.4);
+  padding: 2em;
+  margin-bottom: 1em;
+  margin: 1%;
+  width: 49em;
+  height: 16em;
+}
+
+#my-projects {
+  margin: 1em;
+}
+
+.projects {
+  flex: 3;
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.card {
+  background-color: rgb(247, 239, 239);
+  border-style: dashed;
+  border-radius: 10%;
+  border-width: 1px;
+  padding: 10px;
+  margin: 20px;
+  flex: 0 0 300px;
+  width: 15em;
+}
+
+.card header {
+  text-align: center;
+  border-radius: 30% 30% 0 0;
+  margin: 0;
+
+}
+
+.card img {
+  border-radius: 0 0 30% 30%;
+  box-shadow: 0 0 10px rgba(246, 243, 35, 0.4);
+  padding: 0.5em;
+  margin-bottom: 1em;
+  margin: 1%;
+  width: 100%;
+}
+
+.footer {
+  font-size: 20px;
+  background-color: rgb(150, 245, 147);
+  margin: 0;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  main,
+  nav {
+    flex-direction: column;
+  }
+}
