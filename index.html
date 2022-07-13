@@ -29,14 +29,17 @@
     <link rel="manifest" href="site.webmanifest" />
   </head>
   <body>
+    <!--Header and header image-->
     <header class="header">
       <img
         src="./assets/images/Portfolio.png"
         class="logo"
         alt="Portfolio image"
       />
+      <!--Navigation bar with buttons-->
       <nav>
         <ul>
+          <!--Buttons are active, change their size and collor, redirect to dedicated part of website per click-->
           <button class="button">
             <li><a href="#about-me">About me</a></li>
           </button>
@@ -52,6 +55,7 @@
         </ul>
       </nav>
     </header>
+    <!--Photo or avatar of the engineer-->
     <table cellspacing="20">
       <tr>
         <td>
@@ -73,6 +77,7 @@
     </table>
     <main>
       <hr />
+      <!--About me. Quick introduction about the engineer-->
       <div class="aboutme">
         <h2 id="about-me">About me</h2>
         <br />
@@ -92,10 +97,12 @@
       <hr />
       <br />
 
-      <!-- I'm here now -->
+      <!--Projects presentation. Each card highlighted and change size when user hover over it. 
+        Card also change collor. Each card has information about the project-->
       <h2 id="my-projects">My projects</h2>
       <div class="projects">
         <section class="card">
+          <!--Horiseon website refactoring. Card redirects to the page uploaded to github-->
           <header>Horiseon project</header>
           <img
             src="./assets/images/code_refactor.png"
@@ -111,6 +118,7 @@
             class="project-link"
           ></a>
         </section>
+        <!--John Doe project. Dummy project redirects to web site dedicated to John Doe-->
         <section class="card">
           <header>John Doe project</header>
           <img src="./assets/images/johndoe.png" alt="john doe project image" />
@@ -122,6 +130,7 @@
           </p>
           <a href="https://dnadoeproject.org/" class="project-link"></a>
         </section>
+        <!--Dummy progect. Card redirects to dummy project website-->
         <section class="card">
           <header>Dummy project</header>
           <img src="./assets/images/dummy.png" alt="dummy project image" />
@@ -136,6 +145,7 @@
             class="project-link"
           ></a>
         </section>
+        <!--Hello World dummy project. Card redirects to dedicated Hello World website-->
         <section class="card">
           <header>Hello World</header>
           <img
@@ -150,9 +160,12 @@
           <a href="https://code.org/helloworld" class="project-link"></a>
         </section>
       </div>
+      <!--br tag gives some more space between the lines-->
       <br />
+      <!--hr tag devides two sections by the line-->
       <hr />
       <br />
+      <!--Skills section is dedicated to the skills the engineer has-->
       <div class="my-skills-header">
         <h2 id="skills">My Skills</h2>
         <aside>
@@ -177,6 +190,7 @@
       <hr />
       <br />
     </main>
+    <!--Contact me contains email and cell number. Email and Cell designed as active buttons-->
     <section>
       <div class="contact-me">
         <h3 id="contact-me">Contact me</h3>
@@ -196,7 +210,7 @@
     <br />
     <hr />
     <br />
-
+    <!--Footer with the information who created this portfolio with trademark icon-->
     <footer>
       <div class="footer-cont">
         <h4>Gleb's Portfolio website 🧐</h4>
