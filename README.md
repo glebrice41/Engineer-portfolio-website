@@ -18,6 +18,8 @@ Several sentances about developer. When user hovers on the card, card shows red 
 
 <h2>My Projects</h2>
 This sections represents projects that were done by the developer. Each card is responsive, has link to the website, changes size and shows red shadow when user hovers over it. Horiseon project is bigger than other two dummy projects.
+<img width="1022" alt="Screen Shot 2022-07-15 at 1 19 20 AM" src="https://user-images.githubusercontent.com/53848102/179183438-52ad9079-d33b-4d2e-9434-1c8abe4b3b9a.png">
+
 
 <h2>Skills</h2>
 Small sections that shows what skills the developr has.
@@ -25,10 +27,13 @@ Small sections that shows what skills the developr has.
 
 <h2>Contact Me</h2>
 Section has to buttons Email and Cell. When user clicks Email button system will open email agent and with new email draft. Cell button allows to make a call to the developer. Buttons are active, change their size and collor.
+<img width="745" alt="Screen Shot 2022-07-15 at 1 24 17 AM" src="https://user-images.githubusercontent.com/53848102/179184046-37b7231a-eb4c-447d-9c42-f0e83d72841b.png">
+
 
 Each section divaded by hr tag. 
 
 Favicon was added to the image's folder. Webpage has it's own icon.
+<img width="249" alt="Screen Shot 2022-07-15 at 1 24 49 AM" src="https://user-images.githubusercontent.com/53848102/179184130-f68c0dae-dd80-4093-b64a-cf21adfa482e.png">
 
 Unique GitHub repo was created for this project.
 GH link - https://glebrice41.github.io/Engineer-portfolio-website/
