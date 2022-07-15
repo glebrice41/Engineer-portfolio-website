@@ -30,6 +30,6 @@ Unique GitHub repo was created for this project.
 GH link - https://glebrice41.github.io/Engineer-portfolio-website/
 
 Links to download this project 
-HTTPS - https://github.com/glebrice41/Engineer-portfolio-website.git
-SSH - git@github.com:glebrice41/Engineer-portfolio-website.git
-GitHub CLI - gh repo clone glebrice41/Engineer-portfolio-website
+<p>HTTPS - https://github.com/glebrice41/Engineer-portfolio-website.git</p>
+<p>SSH - git@github.com:glebrice41/Engineer-portfolio-website.git</p>
+<p>GitHub CLI - gh repo clone glebrice41/Engineer-portfolio-website</p>
