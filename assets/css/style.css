@@ -339,6 +339,7 @@ h4 {
   .flex-container {
     flex-direction: column;
   }
+  /*Border disappears when elements lined up in a column*/
   .container-left {
     border-right: none;
   }
