@@ -16,7 +16,7 @@
   --photo-box-shadow: 0 0 10px rgba(3, 85, 247, 0.975);
   --footer-p-font: Snell Roundhand, cursive;
   --container-left-h: Marker Felt, fantasy;
-  --container-right-header-font: 'Courier New', Courier, monospace;
+  --container-right-header-font: "Courier New", Courier, monospace;
 }
 
 /* Body background color*/
@@ -122,36 +122,43 @@ a:visited {
   margin: var(--header-margin);
 }
 
+/*flex-container for all sections of portfolio website*/
 .flex-container {
   display: flex;
   margin-bottom: 20px;
 }
 
+/*container responsible for elements located on the left side */
 .container-left {
   width: 200px;
   border-right: 1px solid blue;
   padding-left: 20px;
 }
 
+/*font family of heading on left container  */
 .container-left h1,
 h2 {
   font-family: var(--container-left-h);
 }
 
+/*container responsible for elements located on the right side */
 .container-right {
   flex: 1;
   max-width: 700px;
 }
 
+/*Header of element located in right container*/
 .container-right header {
-  font-family: var(--container-right-header-font)
+  font-family: var(--container-right-header-font);
 }
 
+/*Class responsible for two boxes in My Project */
 .flex-box-2 {
   display: flex;
   padding: 20px;
 }
 
+/*Class responsible for card's decor*/
 .flex-item {
   margin: 10px;
   border: 3px solid pink;
@@ -160,6 +167,7 @@ h2 {
   padding: 20px;
 }
 
+/*Images located in the cards*/
 .flex-item img {
   border-radius: 0 0 30% 30%;
   padding: 0.5em;
@@ -168,14 +176,17 @@ h2 {
   width: 100%;
 }
 
+/*Shadow appears when hover on cards*/
 .flex-item:hover {
   box-shadow: var(--box-shadow);
 }
 
+/*Card 1 changes size*/
 .flex-card-1:hover {
   transform: scale(1.1);
 }
 
+/*Class responsible for card 1, size and flexibility */
 .flex-card-1 {
   min-height: 200px;
   align-self: center;
@@ -187,11 +198,13 @@ h2 {
   position: relative;
 }
 
+/*Text align in card 1 */
 .flex-card-1 p,
 header {
   text-align: center;
 }
 
+/*Class responsible for card 2, size and flexibility */
 .flex-card-2 {
   flex: 1;
   min-height: 100px;
@@ -204,10 +217,12 @@ header {
   position: relative;
 }
 
+/*Card 2 changes size */
 .flex-card-2:hover {
   transform: scale(1.1);
 }
 
+/*Class responsible for card 3, size and flexibility */
 .flex-card-3 {
   flex: 1;
   min-height: 100px;
@@ -220,10 +235,12 @@ header {
   position: relative;
 }
 
+/*Card 2 changes size */
 .flex-card-3:hover {
   transform: scale(1.1);
 }
 
+/*Class responsible for link in the card*/
 .flex-item a.project-link {
   position: absolute;
   top: 0;
@@ -306,15 +323,18 @@ footer {
   text-align: center;
 }
 
+/*Class responsible for paragraph in the footer */
 .footer-cont p {
   margin: 10px auto;
   font-family: var(--footer-p-font);
 }
 
+/* Size of heading in the footer */
 h4 {
   font-size: 20px;
 }
 
+/*Class responsible for elements flexibility when screen is small, all elements line up in a column and become smaller*/
 @media screen and (max-width: 650px) {
   .header .button {
     float: none;
@@ -328,7 +348,7 @@ h4 {
     border-right: none;
   }
 
-  .flex-item td{
+  .flex-item td {
     flex-direction: column;
   }
 }
