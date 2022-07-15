@@ -159,6 +159,7 @@ h2 {
   display: flex;
   padding: 5px;
   margin-top: 20px;
+  flex-flow: column;
 }
 
 /*Class responsible for card's decor*/
