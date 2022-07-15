@@ -28,6 +28,7 @@
     />
     <link rel="manifest" href="site.webmanifest" />
   </head>
+
   <body>
     <!--Header and header image-->
     <header class="header">
@@ -55,54 +56,85 @@
         </ul>
       </nav>
     </header>
-    <!--Photo or avatar of the engineer-->
-    <table cellspacing="20">
-      <tr>
-        <td>
-          <img
-            class="main-foto"
-            src="./assets/images/monkey.jpeg"
-            alt="Gleb's foto"
-          />
-        </td>
-        <td>
-          <h1 id="name">Gleb Suleimenov</h1>
-          <br />
-          <p class="whoami">
-            Future software developer, cyber security engineer, basketball
-            player
-          </p>
-        </td>
-      </tr>
-    </table>
-    <main>
-      <hr />
-      <!--About me. Quick introduction about the engineer-->
-      <div class="aboutme">
-        <h2 id="about-me">About me</h2>
-        <br />
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet
-          commodo nulla facilisi nullam vehicula ipsum a arcu. Ipsum dolor sit
-          amet consectetur adipiscing elit pellentesque. Tincidunt arcu non
-          sodales neque sodales ut. Elit eget gravida cum sociis. Nulla aliquet
-          porttitor lacus luctus accumsan tortor posuere ac. Sit amet aliquam id
-          diam maecenas ultricies. Quam id leo in vitae turpis massa sed
-          elementum. Et tortor consequat id porta nibh. Ut tortor pretium
-          viverra suspendisse potenti nullam.
-        </p>
-      </div>
-      <br />
-      <hr />
-      <br />
 
-      <!--Projects presentation. Each card highlighted and change size when user hover over it. 
+    <!--br tag gives some more space between the lines-->
+    <br />
+    <!--hr tag devides two sections by the line-->
+    <hr />
+    <br />
+
+    <!--Photo or avatar of the engineer-->
+    <div class="flex-container">
+      <div class="container-left">
+        <h1>Who Am I</h1>
+      </div>
+      <div class="container-right">
+        <div class="flex-item">
+          <table cellspacing="20">
+            <tr>
+              <td>
+                <img
+                  class="main-photo"
+                  src="./assets/images/monkey.jpeg"
+                  alt="Gleb's foto"
+                />
+              </td>
+              <td>
+                <h1 id="name">Gleb Suleimenov</h1>
+                <br />
+                <p class="whoami">
+                  Future software developer, cyber security engineer, basketball
+                  player
+                </p>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!--hr tag devides two sections by the line-->
+    <hr />
+    <!--About me. Quick introduction about the engineer-->
+    <div class="flex-container">
+      <div class="container-left">
+        <h2 id="about-me">About Me</h2>
+      </div>
+      <div class="container-right">
+        <div class="flex-item">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet
+            commodo nulla facilisi nullam vehicula ipsum a arcu. Ipsum dolor sit
+            amet consectetur adipiscing elit pellentesque. Tincidunt arcu non
+            sodales neque sodales ut. Elit eget gravida cum sociis. Nulla
+            aliquet porttitor lacus luctus accumsan tortor posuere ac. Sit amet
+            aliquam id diam maecenas ultricies. Quam id leo in vitae turpis
+            massa sed elementum. Et tortor consequat id porta nibh. Ut tortor
+            pretium viverra suspendisse potenti nullam.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!--br tag gives some more space between the lines-->
+    <br />
+    <!--hr tag devides two sections by the line-->
+    <hr />
+    <br />
+
+    <!--Projects presentation. Each card highlighted and change size when user hover over it. 
         Card also change collor. Each card has information about the project-->
-      <h2 id="my-projects">My projects</h2>
-      <div class="projects">
-        <section class="card">
-          <!--Horiseon website refactoring. Card redirects to the page uploaded to github-->
+
+    <div class="flex-container">
+      <!--container-left includes My projetcs ID-->
+      <div class="container-left">
+        <h2 id="my-projects">My projects</h2>
+      </div>
+      <!--container-right includes 3 projects-->
+      <div class="container-right">
+        <!--Horiseon website refactoring. Card redirects to the page uploaded to github-->
+        <div class="flex-item flex-card-1">
           <header>Horiseon project</header>
           <img
             src="./assets/images/code_refactor.png"
@@ -117,58 +149,49 @@
             href="https://glebrice41.github.io/Horiseon-website-code-refactoring/"
             class="project-link"
           ></a>
-        </section>
-        <!--John Doe project. Dummy project redirects to web site dedicated to John Doe-->
-        <section class="card">
-          <header>John Doe project</header>
-          <img src="./assets/images/johndoe.png" alt="john doe project image" />
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque,
-            veritatis reprehenderit beatae maiores adipisci ipsam laudantium
-            quisquam. Rerum, perferendis. Consequatur praesentium molestiae
-            doloribus neque iure quam magni necessitatibus iusto hic!
-          </p>
-          <a href="https://dnadoeproject.org/" class="project-link"></a>
-        </section>
-        <!--Dummy progect. Card redirects to dummy project website-->
-        <section class="card">
-          <header>Dummy project</header>
-          <img src="./assets/images/dummy.png" alt="dummy project image" />
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet
-            dolorem enim placeat blanditiis ullam expedita, molestias ab porro.
-            Culpa delectus velit sequi? Esse porro enim magni quaerat, unde
-            voluptate nostrum.
-          </p>
-          <a
-            href="https://en.wikipedia.org/wiki/Dummy"
-            class="project-link"
-          ></a>
-        </section>
-        <!--Hello World dummy project. Card redirects to dedicated Hello World website-->
-        <section class="card">
-          <header>Hello World</header>
-          <img
-            src="./assets/images/helloworld.jpg"
-            alt="helloworld project image"
-          />
-          <p>
-            Elit eget gravida cum sociis. Nulla aliquet porttitor lacus luctus
-            accumsan tortor posuere ac. Sit amet aliquam id diam maecenas
-            ultricies. Quam id leo in vitae turpis massa sed elementum.
-          </p>
-          <a href="https://code.org/helloworld" class="project-link"></a>
-        </section>
+        </div>
+        <!--flex-box consist of 2 project cards located side by side -->
+        <div class="flex-box-2">
+          <!--Dummy progect. Card redirects to dummy project website-->
+          <div class="flex-item flex-card-2">
+            <header>Dummy project</header>
+            <img src="./assets/images/dummy.png" alt="dummy project image" />
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet
+              dolorem enim placeat blanditiis ullam expedita, molestias ab
+              porro. Culpa delectus velit sequi? Esse porro enim magni quaerat,
+              unde voluptate nostrum.
+            </p>
+            <a
+              href="https://en.wikipedia.org/wiki/Dummy"
+              class="project-link"
+            ></a>
+          </div>
+          <!--Hello World dummy project. Card redirects to dedicated Hello World website-->
+          <div class="flex-item flex-card-3">
+            <header>Hello World</header>
+            <img
+              src="./assets/images/helloworld.jpg"
+              alt="helloworld project image"
+            />
+            <p>
+              Elit eget gravida cum sociis. Nulla aliquet porttitor lacus luctus
+              accumsan tortor posuere ac. Sit amet aliquam id diam maecenas
+              ultricies. Quam id leo in vitae turpis massa sed elementum.
+            </p>
+            <a href="https://code.org/helloworld" class="project-link"></a>
+          </div>
+        </div>
       </div>
-      <!--br tag gives some more space between the lines-->
-      <br />
-      <!--hr tag devides two sections by the line-->
-      <hr />
-      <br />
-      <!--Skills section is dedicated to the skills the engineer has-->
-      <div class="my-skills-header">
+    </div>
+
+    <!--Skills section is dedicated to the skills the engineer has-->
+    <div class="flex-container">
+      <div class="container-left">
         <h2 id="skills">My Skills</h2>
-        <aside>
+      </div>
+      <div class="container-right">
+        <div class="flex-item">
           <table class="skills-table">
             <tr>
               <td>Frontend</td>
@@ -184,12 +207,16 @@
             </tr>
             <br />
           </table>
-        </aside>
+        </div>
       </div>
-      <br />
-      <hr />
-      <br />
-    </main>
+    </div>
+
+    <!--br tag gives some more space between the lines-->
+    <br />
+    <!--hr tag devides two sections by the line-->
+    <hr />
+    <br />
+
     <!--Contact me contains email and cell number. Email and Cell designed as active buttons-->
     <section>
       <div class="contact-me">
@@ -210,6 +237,7 @@
     <br />
     <hr />
     <br />
+
     <!--Footer with the information who created this portfolio with trademark icon-->
     <footer>
       <div class="footer-cont">
