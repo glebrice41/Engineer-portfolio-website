@@ -145,6 +145,8 @@ h2 {
 .container-right {
   flex: 1;
   max-width: 700px;
+  margin-left: 27px;
+  padding: 7px;
 }
 
 /*Header of element located in right container*/
@@ -155,7 +157,8 @@ h2 {
 /*Class responsible for two boxes in My Project */
 .flex-box-2 {
   display: flex;
-  padding: 20px;
+  padding: 5px;
+  margin-top: 20px;
 }
 
 /*Class responsible for card's decor*/
@@ -207,14 +210,11 @@ header {
 /*Class responsible for card 2, size and flexibility */
 .flex-card-2 {
   flex: 1;
-  min-height: 100px;
-  align-self: center;
+  min-height: 200px;
   align-self: flex-end;
   flex-grow: 5;
-  margin: 1;
-  padding: 1;
-  border: 1;
   position: relative;
+  
 }
 
 /*Card 2 changes size */
@@ -225,13 +225,8 @@ header {
 /*Class responsible for card 3, size and flexibility */
 .flex-card-3 {
   flex: 1;
-  min-height: 100px;
-  align-self: center;
-  align-self: flex-end;
-  flex-grow: 5;
-  margin: 1;
-  padding: 1;
-  border: 1;
+  min-height: 200px;
+  flex-grow: 9;
   position: relative;
 }
 
