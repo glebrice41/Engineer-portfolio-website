@@ -14,7 +14,7 @@
   --button-hover: rgb(198, 248, 231);
   --box-shadow: 0 0 10px rgba(246, 13, 9, 0.788);
   --photo-box-shadow: 0 0 10px rgba(3, 85, 247, 0.975);
-  --footer-p-font: Snell Roundhand, cursive;
+  --footer-p-font: "Courier New", Courier, monospace;
   --container-left-h: Marker Felt, fantasy;
   --container-right-header-font: "Courier New", Courier, monospace;
 }
@@ -167,7 +167,7 @@ h2 {
   border: 3px solid pink;
   background-color: rgb(253, 232, 191);
   border-radius: 15%;
-  padding: 20px;
+  padding: 40px;
 }
 
 /*Images located in the cards*/
@@ -255,7 +255,7 @@ header {
 .skills-table {
   padding-bottom: 10px;
   margin: var(--header-margin);
-  font-family: Brush Script MT, Brush Script Std, cursive;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 30px;
 }
 
@@ -329,12 +329,10 @@ h4 {
   font-size: 20px;
 }
 
-/*Class responsible for elements flexibility when screen is small, all elements line up in a column and become smaller*/
-@media screen and (max-width: 650px) {
+/*Class responsible for elements flexibility when screen is small, all elements line up in a column and become smaller, project boxes stand in one vertical line*/
+@media screen and (max-width: 830px) {
   .header .button {
-    float: none;
-    display: block;
-    text-align: left;
+    text-align: center;
   }
   .flex-container {
     flex-direction: column;
@@ -346,5 +344,10 @@ h4 {
 
   .flex-item td {
     flex-direction: column;
+  }
+
+  .flex-box-2{
+    flex-direction: column;
+    
   }
 }
