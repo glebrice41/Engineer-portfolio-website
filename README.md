@@ -20,6 +20,11 @@ Several sentances about developer. When user hovers on the card, card shows red 
 This sections represents projects that were done by the developer. Each card is responsive, has link to the website, changes size and shows red shadow when user hovers over it. Horiseon project is bigger than other two dummy projects.
 <img width="1022" alt="Screen Shot 2022-07-15 at 1 19 20 AM" src="https://user-images.githubusercontent.com/53848102/179183438-52ad9079-d33b-4d2e-9434-1c8abe4b3b9a.png">
 
+When screen has 830px and lower, projects line up
+
+<img width="536" alt="Screen Shot 2022-07-15 at 11 24 32 PM" src="https://user-images.githubusercontent.com/53848102/179343030-16852e57-1dc5-40bc-862e-519858d0adca.png">
+
+
 
 <h2>Skills</h2>
 Small sections that shows what skills the developr has.
