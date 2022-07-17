@@ -257,6 +257,7 @@ header {
   margin: var(--header-margin);
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 30px;
+  align-self: flex-start;
 }
 
 /*Contact me section location, size and font*/
